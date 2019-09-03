@@ -75,7 +75,7 @@
 								</ul>
 							</li>
 							<li><a href="#about">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li class="modalactive" style="cursor: pointer" ><a >Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -219,6 +219,87 @@
 		</footer>
 	</div><!-- END container-wrap -->
 	</div>
+
+
+<!-- modal by ayush  -->
+<div class="contactmodal" style="display: none;">
+		<div class="modesmodal">
+			
+			<div class="fb">
+			<a href="https://www.facebook.com/profile.php?id=100009855902362" target="_blank" >	<img class="contactimg" src="images/fb.png" alt="" height="90px;"></a>
+			</div>
+			<div class="mail">
+					<div class="close">+</div>
+					<a href="mailto:imdeveloperayush@gmail.com"><img class="contactimg" src="images/mail.png" alt="" height="100px;"></a>
+			</div>
+		
+	</div>
+	
+	
+	
+	<!-- modal by ayush end  -->
+
+
+
+<!-- scroll animate  -->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+
+  <script>
+
+		$(document).ready(function(){
+			$(".modalactive").click(function(){
+				$(".contactmodal").show(500);
+			});
+		   
+		 
+		});
+		
+		$(document).ready(function(){
+			$(".close").click(function(){
+				$(".contactmodal").fadeOut(1000);
+			});
+		   
+		 
+		});
+		
+		</script>
+
+
+
+<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+		
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+		
+			  // Store hash
+			  var hash = this.hash;
+		
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+		</script>
+
+<!-- end   -->
+
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>

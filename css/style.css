@@ -5,6 +5,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 /* =======================================================
 *
 * 	Template Style 
@@ -1035,6 +1037,7 @@ input[type="text"] {
   bottom: 0;
   padding: 75px 40px 40px 40px;
   overflow-y: auto;
+  font-size: 20px;
   display: none;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
@@ -1492,8 +1495,88 @@ input[type="text"] {
 
 @media(max-width:1000px){
 
-.back1{
+.back1 {
   background-image: url(../images/img_1_blur.jpg) !important;
 }
 
+.back2 {
+  background-image: url(../images/img_11_blur.jpg) !important;
+}
+
+}
+
+
+
+
+@media(max-width:800px){
+.hid{
+  display: none !important;
+}
+
+#fh5co-logo {
+
+  top: -17px !important;
+}
+
+
+}
+
+
+.contactmodal{
+  
+  z-index: 100000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modesmodal{
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 300px;
+width: 70%;
+background-color: #000;
+display: grid;
+grid-template-columns: 1fr 1fr; 
+}
+
+.fb{
+  background-image: linear-gradient(to right top, #ffffff, #f0f0f0, #e1e1e1, #d2d2d2, #c4c4c4);
+  
+}
+
+.fb img{
+  cursor: pointer;
+
+}
+
+.mail{
+  background-image: linear-gradient(to right top, #ffffff, #f0f0f0, #e1e1e1, #d2d2d2, #c4c4c4);
+}
+
+.mail img{
+  cursor: pointer;
+
+}
+
+.contactimg{
+  position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.close{
+  font-size: 50px;
+  transform: rotate(45deg);
+  color: #000;
+  padding-right: 10px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }

@@ -66,15 +66,15 @@
 							<li><a href="work.html">Work</a></li>
 							<li class="has-dropdown">
 								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
+								<!-- <ul class="dropdown">
 									<li><a href="#">Web Design</a></li>
 									<li><a href="#">eCommerce</a></li>
 									<li><a href="#">Branding</a></li>
 									<li><a href="#">API</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li><a href="#about">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li class="modalactive" style="cursor: pointer" ><a >Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 				   				<div class="slider-text-inner">
 				   					<h1>I am passionate about website <span style="font-weight: 500;"> design & development.</span></h1>
 										<h2>If you have any questions or need help figuring out what you need, reach out. I'm glad to help!	</h2>
-										<p><a class="btn btn-primary btn-demo" href="#"></i>Contact</a> <a class="btn btn-primary btn-learn">Services</a></p>
+										<p><a  class="btn btn-primary btn-demo modalactive" href="#"></i>Contact</a> <a href="#serv" class="btn btn-primary btn-learn">Services</a></p>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -128,7 +128,7 @@
 				   		</div>
 			   		</div>
 			   	</li> -->
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
+			   	<li class="back2" style="background-image: url(images/img_bg_2.jpg);">
 			   		<div class="overlay-gradient"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -136,27 +136,29 @@
 				   				<div class="slider-text-inner">
 				   					<h1>I Work On Multiple Platforms , I've Got You Covered.</h1>
 										<h2>If you have any questions or need help figuring out what you need, reach out. I'm glad to help!</h2>
-										<p><a class="btn btn-primary btn-demo" href="#"></i>CONTACT</a> <a href="#serv" class="btn btn-primary btn-learn">SERVICES</a></p>
+										<p><a  class="btn btn-primary btn-demo modalactive" href="#"></i>CONTACT</a> <a href="#serv" class="btn btn-primary btn-learn">SERVICES</a></p>
 								   </div>
 								  
 				   			</div>
 				   		</div>
 			   		</div>
 				   </li>
-				   	   	
-			  	</ul>
+				 	
+				  </ul>
+				  <a href="" id="serv"></a> 
 		  	</div>
 		</aside>
-		<a id="serv" href=""></a>
+		
 
 		<div id="fh5co-services">
-			<div class="row">
+				
+			<div class="row" >
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
 						<span class="icon">
 							<i class="icon-diamond"></i>
 						</span>
-						<div class="desc">
+						<div class="desc" >
 							<h3><a href="#">Custom Coded Website</a></h3>
 							<p> I make awesome cutom websites using the tools you need to get the site you want, including like html, css, javascript, bootstrap, sass & various javascript frameworks & libraries.</p>
 						</div>
@@ -198,7 +200,7 @@
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
 					<a href="work-single.html" class="work"  style="background-image: url(images/portfolio-1.jpg);">
-						<div class="desc">
+						<div class="desc hid">
 							<h3>Flymer</h3>
 							<span>WEBSITE - WEBFLOW</span>
 						</div>
@@ -206,7 +208,7 @@
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a href="work-single.html" class="work" style="background-image: url(images/portfolio-2.jpg);">
-						<div class="desc">
+						<div class="desc hid">
 							<h3>SILJE MARIELA</h3>
 							<span>CUSTOM BLOG LAYOUT -  KAJABI</span>
 						</div>
@@ -214,7 +216,7 @@
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a href="work-single.html" class="work" style="background-image: url(images/portfolio-3.jpg);">
-						<div class="desc">
+						<div class="desc hid">
 							<h3>STARTUP TOOLKITS& CONSULTING</h3>
 							<span>WEBSITE - KAJABI</span>
 						</div>
@@ -253,7 +255,7 @@
 			</div>
 		</div>
 		<div class="text-center fh5co-heading">
-			<h2>Tips And Freebies For Kajabi Site</h2>
+			<h2 style="padding: 20px;">Tips And Freebies For Your Kajabi Site</h2>
 		</div>
 		<div id="fh5co-blog" class="blog-flex">
 			<div class="featured-blog" style="background-image: url(images/blog-1.jpg);">
@@ -332,7 +334,7 @@
 						<li><a href="#">Work</a></li>
 						<li><a href="#">Services</a></li>
 						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
+						
 					</ul>
 				</div>
 
@@ -374,6 +376,85 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
 	
+
+
+<!-- modal by ayush  -->
+<div class="contactmodal" style="display: none;">
+	<div class="modesmodal">
+		
+		<div class="fb">
+		<a href="https://www.facebook.com/profile.php?id=100009855902362" target="_blank" >	<img class="contactimg" src="images/fb.png" alt="" height="90px;"></a>
+		</div>
+		<div class="mail">
+			    <div class="close">+</div>
+				<a href="mailto:imdeveloperayush@gmail.com"><img class="contactimg" src="images/mail.png" alt="" height="100px;"></a>
+		</div>
+	
+</div>
+
+
+
+<!-- modal by ayush end  -->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function(){
+    $(".modalactive").click(function(){
+		$(".contactmodal").show(500);
+	});
+   
+ 
+});
+
+$(document).ready(function(){
+    $(".close").click(function(){
+		$(".contactmodal").fadeOut(1000);
+	});
+   
+ 
+});
+
+</script>
+
+
+
+<!-- scroll animate  -->
+<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+		
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+		
+			  // Store hash
+			  var hash = this.hash;
+		
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+		</script>
+
+<!-- end   -->
+
+
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
