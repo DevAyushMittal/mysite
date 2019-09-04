@@ -129,6 +129,10 @@ h1, h2, h3, h4, h5, h6, figure {
   left: -18px;
 }
 
+
+
+
+
 .fh5co-nav #fh5co-logo a span {
   color: #66D37E;
 }
@@ -1581,3 +1585,62 @@ transform: translate(-50%, -50%);
   right: 5px;
   top: 5px;
 }
+
+
+
+
+
+#pcontactmodal{
+  
+  
+  z-index: 100000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+
+.pmodesmodal{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 70%;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  }
+
+  .plat{
+    background-image: linear-gradient(to right top, #ffffff, #f0f0f0, #e1e1e1, #d2d2d2, #c4c4c4);
+    height: 170px;
+  }
+
+  .plat img{
+    cursor: pointer;
+  }
+
+
+  @media(max-width:700px){
+.kajabi {
+  height: 36px !important;
+}
+.webflow {
+  height: 28px !important;
+}
+
+
+.custom {
+  height: 100px !important;
+}
+
+
+
+
+  }
+

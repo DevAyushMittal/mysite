@@ -49,6 +49,7 @@
 
 	</head>
 	<body>
+	
 		
 	<div class="fh5co-loader"></div>
 	
@@ -136,7 +137,7 @@
 				   				<div class="slider-text-inner">
 				   					<h1>I Work On Multiple Platforms , I've Got You Covered.</h1>
 										<h2>If you have any questions or need help figuring out what you need, reach out. I'm glad to help!</h2>
-										<p><a  class="btn btn-primary btn-demo modalactive" href="#"></i>CONTACT</a> <a href="#serv" class="btn btn-primary btn-learn">SERVICES</a></p>
+										<p><a  class="btn btn-primary btn-demo modalactive2" ></i>Which Platform Do I Work On ?</a> </p>
 								   </div>
 								  
 				   			</div>
@@ -377,6 +378,32 @@
 	</div>
 	
 
+	<div id="pcontactmodal" style="display:none;">
+		<div class="pmodesmodal">
+				
+		<div class="plat">
+				<img class="contactimg kajabi" src="images/kajabi2.png" alt="" height="50px;">
+	    
+		</div>
+
+    	
+		<div class="plat">
+			<img class="contactimg webflow" src="images/webflow.png" alt="" height="33px;">
+			<div class="close">+</div>
+			</div>
+
+			<div class="plat">
+			<img class="contactimg wix" src="images/wix.png" alt="" height="130px;">
+			</div>	
+
+			<div class="plat">
+					<img class="contactimg custom" src="images/custom.png" alt="" height="120px;">
+			</div>
+
+	  </div>
+		
+	</div>
+
 
 <!-- modal by ayush  -->
 <div class="contactmodal" style="display: none;">
@@ -395,6 +422,10 @@
 
 
 <!-- modal by ayush end  -->
+
+<!-- platform modal  -->
+
+<!-- end  -->
 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -421,6 +452,36 @@ $(document).ready(function(){
 
 </script>
 
+
+
+<!-- plat modal script  -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script>
+
+
+
+$(document).ready(function(){
+    $(".modalactive2").click(function(){
+		$("#pcontactmodal").show(500);
+	});
+   
+ 
+});
+
+$(document).ready(function(){
+    $(".close").click(function(){
+		$("#pcontactmodal").fadeOut(1000);
+	});
+   
+ 
+});
+
+</script>
+<!-- end  -->
 
 
 <!-- scroll animate  -->
