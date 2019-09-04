@@ -1644,3 +1644,10 @@ transform: translate(-50%, -50%);
 
   }
 
+
+@media(max-width:900px){
+    .mabout{
+      display: none !important;
+    }
+}  
+
