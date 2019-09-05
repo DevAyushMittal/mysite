@@ -1,15 +1,45 @@
-.mainblogayush{
-  width: 100%;
-  
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.mainblog{
-    background-color: #000;
-    height: 800px;
+body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.7;
+  color: gray;
+  background: #e8e8e8;
 }
 
-.c_sidebar{
-    background-color: aqua;
-    height: 800px;
-    
+.blog_lay{
+
+width: 100%;
+padding: 20px;
+}
+
+.blog_sin{
+padding: 20px;
+
+}
+
+.blog_sub{
+  font-size: 20px;
+}
+
+.blogpostbyayush{
+margin-top: 60px;
+
+
+}
+
+.blogpostbyayush h4{
+    font-size: 20px;
+    line-height:34px;
+    font-family: 
+
+
 }

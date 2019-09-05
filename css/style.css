@@ -15,7 +15,7 @@
 body {
   font-family: "Oxygen", sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.7;
   color: gray;
   background: #e8e8e8;
@@ -959,13 +959,19 @@ input[type="text"] {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #66D37E;
+  color: #000;
   padding-left: 10px;
   padding-right: 10px;
 }
 .fh5co-social-icons li a i {
-  font-size: 20px;
+  font-size: 35px;
+
 }
+
+.fh5co-social-icons li a:hover {
+  transform: scale(1.2);
+}
+
 
 .fh5co-heading {
   margin-bottom: 5em;
@@ -1651,3 +1657,9 @@ transform: translate(-50%, -50%);
     }
 }  
 
+
+
+/* testimonial css  */
+
+
+/* end  */
