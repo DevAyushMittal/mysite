@@ -39,7 +39,37 @@ margin-top: 60px;
 .blogpostbyayush h4{
     font-size: 20px;
     line-height:34px;
-    font-family: 
-
+ 
 
 }
+
+
+@media(max-width:1100px){
+  .blogimg img{
+     height:300px !important;
+  }
+  
+  .blogheadimg img{
+    height:260px !important;
+  }
+  
+  }
+
+
+@media(max-width:800px){
+.blogimg img{
+   height:280px !important;
+}
+
+.blogheadimg img{
+  height:200px !important;
+}
+
+}
+
+@media(max-width:600px){
+  .blogimg img{
+     height:170px !important;
+  }
+  
+  }
