@@ -66,13 +66,13 @@
 							<li><a href="index.html">Home</a></li>
 							<li class="active"><a href="work.html">Work</a></li>
 							<li class="has-dropdown">
-								<a href="blog2.html">Blog</a>
-								<ul class="dropdown">
+								<a href="blog.html">Blog</a>
+								<!-- <ul class="dropdown">
 									<li><a href="#">Web Design</a></li>
 									<li><a href="#">eCommerce</a></li>
 									<li><a href="#">Branding</a></li>
 									<li><a href="#">API</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li><a href="#about">About</a></li>
 							<li class="modalactive" style="cursor: pointer" ><a >Contact</a></li>
@@ -155,6 +155,7 @@
 		</div>
 	</div><!-- END container-wrap -->
 
+
 	<div class="container-wrap" id="about">
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
@@ -165,11 +166,11 @@
 						If you have any questions or need help figuring out what you need, reach out. I'm glad to help!</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
-					<h4>Popular</h4>
+					<h4>Popular Services</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Free Kajabi Testimonial Layout</a></li>
-						<li><a href="#">Why Migrate To Kajabi ?</a></li>
-						<li><a href="#">Webflow Elements Coded By Me</a></li>
+						<li><a href="#">Redesign Blog Layout  </a></li>
+						<li><a href="#">Redesign Landing Pages </a></li>
+						<li><a href="#">Webflow Website Customisation</a></li>
 						<li><a href="#"></a></li>
 						<li><a href="#"></a></li>
 					</ul>
@@ -178,11 +179,11 @@
 				<div class="col-md-3 col-md-push-1">
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="#serv">Services</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						
 					</ul>
 				</div>
 
@@ -208,10 +209,10 @@
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
+							<li><a href="https://www.facebook.com/profile.php?id=100009855902362"><i class="icon-facebook2"></i></a></li>
+							<li><a href="mailto:imdeveloperayush@gmail.com"><i class="icon-envelop"></i></a></li>
+							
 						</ul>
 					</p>
 				</div>
@@ -220,57 +221,120 @@
 	</div><!-- END container-wrap -->
 	</div>
 
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+	
+
+	<div id="pcontactmodal" style="display:none;">
+		<div class="pmodesmodal">
+				
+		<div class="plat">
+				<img class="contactimg kajabi" src="images/kajabi2.png" alt="" height="50px;">
+	    
+		</div>
+
+    	
+		<div class="plat">
+			<img class="contactimg webflow" src="images/webflow.png" alt="" height="33px;">
+			<div class="close">+</div>
+			</div>
+
+			<div class="plat">
+			<img class="contactimg wix" src="images/wix.png" alt="" height="130px;">
+			</div>	
+ 
+			<div class="plat">
+					<img class="contactimg custom" src="images/custom.png" alt="" height="120px;">
+			</div>
+
+		
+
+	  </div>
+		
+	</div>
+
 
 <!-- modal by ayush  -->
 <div class="contactmodal" style="display: none;">
-		<div class="modesmodal">
-			
-			<div class="fb">
-			<a href="https://www.facebook.com/profile.php?id=100009855902362" target="_blank" >	<img class="contactimg" src="images/fb.png" alt="" height="90px;"></a>
-			</div>
-			<div class="mail">
-					<div class="close">+</div>
-					<a href="mailto:imdeveloperayush@gmail.com"><img class="contactimg" src="images/mail.png" alt="" height="100px;"></a>
-			</div>
+	<div class="modesmodal">
 		
-	</div>
+		<div class="fb">
+		<a href="https://www.facebook.com/profile.php?id=100009855902362" target="_blank" >	<img class="contactimg" src="images/fb.png" alt="" height="90px;"></a>
+		</div>
+		<div class="mail">
+			    <div class="close">+</div>
+				<a href="mailto:imdeveloperayush@gmail.com"><img class="contactimg" src="images/mail.png" alt="" height="100px;"></a>
+		</div>
 	
-	
-	
-	<!-- modal by ayush end  -->
+</div>
 
 
 
-<!-- scroll animate  -->
+<!-- modal by ayush end  -->
+
+<!-- platform modal  -->
+
+<!-- end  -->
 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
+<script>
 
-  <script>
+$(document).ready(function(){
+    $(".modalactive").click(function(){
+		$(".contactmodal").show(500);
+	});
+   
+ 
+});
 
-		$(document).ready(function(){
-			$(".modalactive").click(function(){
-				$(".contactmodal").show(500);
-			});
-		   
-		 
-		});
-		
-		$(document).ready(function(){
-			$(".close").click(function(){
-				$(".contactmodal").fadeOut(1000);
-			});
-		   
-		 
-		});
-		
-		</script>
+$(document).ready(function(){
+    $(".close").click(function(){
+		$(".contactmodal").fadeOut(1000);
+	});
+   
+ 
+});
 
+</script>
 
 
+
+<!-- plat modal script  -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script>
+
+
+
+$(document).ready(function(){
+    $(".modalactive2").click(function(){
+		$("#pcontactmodal").show(500);
+	});
+   
+ 
+});
+
+$(document).ready(function(){
+    $(".close").click(function(){
+		$("#pcontactmodal").fadeOut(1000);
+	});
+   
+ 
+});
+
+</script>
+<!-- end  -->
+
+
+<!-- scroll animate  -->
 <script>
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
@@ -301,10 +365,7 @@
 <!-- end   -->
 
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->

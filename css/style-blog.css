@@ -59,6 +59,16 @@ margin-top: 60px;
 @media(max-width:800px){
 .blogimg img{
    height:280px !important;
+
+}
+
+.video-btt iframe{
+   height: 215px !important;
+   width: 400px !important;
+}
+
+.video-btt{
+  padding: 10px !important;
 }
 
 .blogheadimg img{
@@ -71,5 +81,15 @@ margin-top: 60px;
   .blogimg img{
      height:170px !important;
   }
+
+
+  .video-btt iframe{
+    height: 195px !important;
+    width: 300px !important;
+ }
+ 
+ .video-btt{
+   padding: 0px !important;
+ }
   
   }

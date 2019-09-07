@@ -1658,8 +1658,19 @@ transform: translate(-50%, -50%);
 }  
 
 
+@media(min-width:900px){
+  .featured-head{
+    position: relative;
+    top:30px;
+  }
+}  
+
+
+
+
 
 /* testimonial css  */
 
 
 /* end  */
+
