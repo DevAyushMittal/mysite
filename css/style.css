@@ -1817,7 +1817,7 @@ transform: translate(-50%, -50%);
 .active > div:first-child + div + div + div { display:block; }
 }
 
-.block {
+.block2 {
 width: 306px;
 height: 230px;
 }
