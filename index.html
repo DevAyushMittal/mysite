@@ -23,6 +23,8 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -258,7 +260,63 @@
 			</div>
 		</div>
 
-		<div id="fh5co-counter" class="fh5co-counters">
+<!-- multiple item carasoul  -->
+
+		<div class="text-center fh5co-heading" style="padding: 6em 0em; margin: 0px !important">
+			<h2>CUSTOM ANIMATIONS FOR YOUR LANDING PAGES </h2>
+			<p></p>
+		</div>
+
+
+		<div class="container-wrap">
+			<div class="row">
+				<div class="col-xs-11 col-md-10 col-centered">
+
+					<div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="carousel-col">
+									<div class="block2 red img-responsive"></div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="carousel-col">
+									<div class="block2  img-responsive"><img src="images/kat2.png" height="200px" ></div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="carousel-col">
+									<div class="block2 blue img-responsive"></div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="carousel-col">
+									<div class="block2 yellow img-responsive"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<div class="left carousel-control">
+							<a href="#carousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><i class="arrow-left"></i></span>
+								<span class="sr-only">Previous</span>
+							</a>
+						</div>
+						<div class="right carousel-control">
+							<a href="#carousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- end  -->
+
+  <div id="fh5co-counter" class="fh5co-counters">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center animate-box">
 					<p>Don't Let Your Website Be Just Another Url On Web , Become One Of My Happy Clients.</p>
@@ -289,12 +347,8 @@
 		</div>
 
 		<!-- testimonial slider  -->
-    
-
 
 		<div class="container-wrap text-center"></div>
-
-		
 			<div class="row text-center testimonialcontainer">
 				<div class="col-md-10 text-center" style="margin: auto;">
 					<div class="testimonial_head text-center" style="margin: 0px;">
@@ -357,15 +411,6 @@
 				</div>
 			</div>
 		
-	
-
-
-
-
-
-
-
-
 <!-- end  -->
 
 
@@ -537,102 +582,13 @@
 </div>
 
 
-
-<!-- modal by ayush end  -->
-
-<!-- platform modal  -->
-
-<!-- end  -->
-
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-
-<script>
-
-$(document).ready(function(){
-    $(".modalactive").click(function(){
-		$(".contactmodal").show(500);
-	});
-   
- 
-});
-
-$(document).ready(function(){
-    $(".close").click(function(){
-		$(".contactmodal").fadeOut(1000);
-	});
-   
- 
-});
-
-</script>
-
-
-
-<!-- plat modal script  -->
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-
-<script>
-
-
-
-$(document).ready(function(){
-    $(".modalactive2").click(function(){
-		$("#pcontactmodal").show(500);
-	});
-   
- 
-});
-
-$(document).ready(function(){
-    $(".close").click(function(){
-		$("#pcontactmodal").fadeOut(1000);
-	});
-   
- 
-});
-
-</script>
-<!-- end  -->
-
-
-<!-- scroll animate  -->
-<script>
-		$(document).ready(function(){
-		  // Add smooth scrolling to all links
-		  $("a").on('click', function(event) {
-		
-			// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-			  // Prevent default anchor click behavior
-			  event.preventDefault();
-		
-			  // Store hash
-			  var hash = this.hash;
-		
-			  // Using jQuery's animate() method to add smooth page scroll
-			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-			  $('html, body').animate({
-				scrollTop: $(hash).offset().top
-			  }, 800, function(){
-		   
-				// Add hash (#) to URL when done scrolling (default click behavior)
-				window.location.hash = hash;
-			  });
-			} // End if
-		  });
-		});
-		</script>
-
-<!-- end   -->
-
-
-
+<!-- end of body   -->	
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	</script>
+	<script src="js/external-ayush.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
