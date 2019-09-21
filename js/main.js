@@ -424,3 +424,22 @@
  
 
 })(jQuery);
+
+
+
+
+$(document).ready(function(){
+    $(".modalactive").click(function(){
+		$(".contactmodal").show(500);
+	});
+   
+ 
+});
+
+$(document).ready(function(){
+    $(".close").click(function(){
+		$(".contactmodal").fadeOut(1000);
+	});
+   
+ 
+});
