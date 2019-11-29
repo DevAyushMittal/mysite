@@ -3033,3 +3033,14 @@ transform: translate(-50%, -50%);
 
 
 /* :end */
+
+
+
+@media(max-width:600px){
+  .embed-sbtt{
+       height: 115 !important;
+       width: 360 !important;
+
+  }
+
+}

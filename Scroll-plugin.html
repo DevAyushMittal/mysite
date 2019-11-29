@@ -7,10 +7,10 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>developerayush - Kajabi Expert</title>
 	<title>DeveloperAyush - Kajabi Expert </title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
+
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -19,8 +19,6 @@
    ================================================== -->
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/vendor.css">  
-   <link rel="stylesheet" href="css/main.css"> 
-   <link rel="stylesheet" href="css/confetti.css"> 
    <link rel="stylesheet" href="css/main.css">  
 
 
@@ -52,7 +50,7 @@
    <header> 
 
    	<div class="header-logo">
-	      <a href="index.html">Menu</a>
+	      <a href="index.html"><img class="main-logo" src="images/logo.png" alt="" srcset=""></a>
 	   </div> 
 
 		<a id="header-menu-trigger" href="#0">
@@ -67,14 +65,13 @@
 	   	<h3>Menu</h3>  
 
 			<ul class="nav-list">
-				<li class="current"><a href="index.html" title="">Home</a></li>
-				<li><a href="index.html#about" title="">About</a></li>
-				<li><a href="index.html#services" title="">Services</a></li>
-				<li><a href="index.html#portfolio" title="">Works</a></li>
-				<li><a href="index.html#contact" title="">Contact</a></li>						
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+				<li><a class="smoothscroll modalactive" href="#contact" title="">Contact</a></li>						
 			</ul>	
 
-		
 			<p class="sponsor-text">
 				If you have any questions or need help figuring out what you need, reach out. I'm glad to help!
 				<span>  <a class="modalactive" href="#">Talk here</a></span>. 
@@ -106,7 +103,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home">
+   <section id="home" style="background: #00cec9 !important; height: auto !important;">
 
    	<div class="overlay"></div>
 
@@ -117,11 +114,25 @@
 			  		
 					<h3 class="animate-intro"></h3>
 					<h3 class="animate-intro" style="font-size: 40px;">
-					Free Kajabi Plugin - Scroll to top button<br>	</h3>	
+						Free Kajabi Plugin - Scroll to top button<br>	</h3>	
+						<br>
+					  
+					</h3>	
 
-				
-					
-					
+
+
+             <h5>Follow the video below for installation instructions!</h5>
+
+
+
+
+<div class="emb-sbtt">
+
+	<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 100px;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//xctLV_ct0bk' frameborder='0' allowfullscreen></iframe></div>
+</div>
+
+
+
 					<script src ="https://form.jotform.me/static/feedback2.js" type="text/javascript"></script><script type="text/javascript">
 						var JFL_92490870944467 = new JotformFeedback({
 						  formId: '92490870944467',
@@ -136,16 +147,15 @@
 						});
 					</script>
 			
-						<a class=" btn lightbox-92490870944467 smoothscroll button stroke mt-5">
+						<a class=" btn lightbox-92490870944467 smoothscroll button stroke mt-5 mb-5">
 							Download
 						</a>
 				
-			  				<h3 class="animate-intro"></h3>
-				  			<h1 class="animate-intro">
-						
-				  			</h1>	
-
-				  									
+						<div class="more animate-intro">
+							<a class="smoothscroll button stroke modalactive" href="#conf">
+								Contact
+							</a>
+						</div>	
 
 			  		</div> <!-- end col-twelve --> 
 		   	</div> <!-- end row --> 
@@ -161,9 +171,10 @@
 
    </section> <!-- end home -->
 
+
 <!-- cara  -->
   <!--Carousel Gallery-->
-  <div class="carousel-gallery">
+  <div class="carousel-gallery" id="conf">
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
