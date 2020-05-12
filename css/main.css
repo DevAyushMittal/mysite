@@ -332,11 +332,7 @@ footer {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
-.header-img {
-  position: absolute;
-  margin-left: -120px;
-  left:0;
-}
+
 
 #main1 {
    padding-bottom: 170px;
@@ -358,11 +354,7 @@ footer {
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) { 
 
-.header-img {
-  position: absolute;
-  margin-left: -30px;
-  left:0;
-}
+
 
 #main1 {
    padding-bottom: 170px;
@@ -412,3 +404,57 @@ footer {
 
 }   
 
+@media (max-width:800px){
+  .main1-img{
+ position: static;
+  }
+  .main2-img {
+ position: static;
+
+  }
+
+  #header{
+    height: 100%;
+  }
+
+
+  #main1{
+    padding: 40px 10px;
+  }
+
+  .main1-img{
+    padding: 5px 10px;
+  }
+
+  #main2{
+    padding: 40px 10px;
+  }
+
+
+
+  .main2-img{
+    padding: 5px 10px;
+    margin: 0px;
+  }
+
+
+  .header-text{
+    padding:30px;
+  }
+
+  .header-img {
+    margin-top: unset;
+  }   
+
+  .header-img {
+    position: static;
+    margin-left: -120px;
+    left:0;
+    display: none;
+  }
+.margin-100{
+  margin-bottom:40px !important;
+}
+
+
+}
