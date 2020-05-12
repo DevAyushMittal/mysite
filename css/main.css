@@ -342,12 +342,7 @@ footer {
   text-align: right;
 }
 
-.main2-img {
-    margin-left: 150px;
-    margin-top: 360px; 
-    width: 100%;
-    max-width: 600px;  
-}
+
 	
 }
 
@@ -364,12 +359,7 @@ footer {
   text-align: right;
 }
 
-.main2-img {
-    margin-left: 150px;
-    margin-top: 260px; 
-    width: 100%;
-    max-width: 600px;  
-}
+
 
 }
 
@@ -390,10 +380,7 @@ footer {
 /* Desktops and laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-.main2-img {
-    margin-left: -400px;
-   
-}
+
 
 }
      
@@ -430,7 +417,9 @@ footer {
     padding: 40px 10px;
   }
 
-
+  #main2{
+    height: auto;
+  }
 
   .main2-img{
     padding: 5px 10px;
@@ -439,7 +428,7 @@ footer {
 
 
   .header-text{
-    padding:30px;
+    padding:40px;
   }
 
   .header-img {
