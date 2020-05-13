@@ -445,5 +445,11 @@ footer {
   margin-bottom:40px !important;
 }
 
+#bottom {
+  padding: 100px 0px;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+
 
 }
