@@ -455,7 +455,19 @@ margin: 2px !important;
 
 }
 
+.hod{
+  display: block !important;
+}
 
+.main2-img {
+  display: none;
+}
+
+}
+
+
+.hod{
+  display: none;
 }
 
 .points{
