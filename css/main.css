@@ -450,6 +450,10 @@ footer {
   background: #f4f4f4;
   overflow: hidden;
 }
+.c-icons{
+margin: 2px !important;
+
+}
 
 
 }
