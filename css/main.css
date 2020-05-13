@@ -459,8 +459,8 @@ margin: 2px !important;
   display: block !important;
 }
 
-.main2-img {
-  display: none;
+.hom {
+  display: none !important;
 }
 
 }
