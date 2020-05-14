@@ -693,7 +693,7 @@ body {
 }
 
 .d_card {
-  min-height: 250px;
+  
   position: relative;
   display: -webkit-box;
   display: flex;
@@ -897,6 +897,24 @@ body {
 
 
 @media(max-width:700px){
+  .d_card:after{
+    background-image: unset !important;
+  }
+
+  .d_card:nth-child(1):before {
+    background-image: none !important;
+    background-color: #000;
+    
+  }
+  .d_card:nth-child(2):before {
+    background-image: none !important;
+    background-color: #000;
+  }
+  
+  .content{
+    border: 2px solid #fff;
+    min-height: 150px;
+  }
 
 
 }
