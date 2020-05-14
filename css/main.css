@@ -789,7 +789,7 @@ body {
     -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .d_card:nth-child(1):before {
-  background-image: url(/img/m.jpg);
+  background-image: url(/img/m3.png);
 }
 .d_card:nth-child(2):before {
   background-image: url(/img/m2.jpg);
@@ -897,12 +897,6 @@ body {
 
 
 @media(max-width:700px){
-  .d_card:nth-child(1):before {
-    background-image:none !important;
-  }
-  .d_card:nth-child(2):before {
-    background-image:none !important;
-  }
-  
+
 
 }
