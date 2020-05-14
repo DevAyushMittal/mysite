@@ -792,8 +792,10 @@ body {
   background-image: url(/img/m.jpg);
 }
 .d_card:nth-child(2):before {
-  background-image: url(/img/m.jpg);
+  background-image: url(/img/m2.jpg);
 }
+
+
 
 
 .content {
@@ -890,4 +892,17 @@ body {
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
   }
+}
+
+
+
+@media(max-width:700px){
+  .d_card:nth-child(1):before {
+    background-image:none !important;
+  }
+  .d_card:nth-child(2):before {
+    background-image:none !important;
+  }
+  
+
 }
