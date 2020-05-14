@@ -914,6 +914,7 @@ body {
   .content{
     border: 2px solid #fff;
     min-height: 150px;
+    border-radius: 10px;
   }
 
 
