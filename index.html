@@ -13,14 +13,18 @@
 	<meta property="og:description" content="">
 
   <!-- Styles -->
+  <link rel="stylesheet" href="css/index-web.css">
+
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-
+ 
+  
   <script src="js/modernizr-2.7.1.js"></script>
 
   <!-- Fav and touch icons -->
@@ -46,122 +50,41 @@
     </div>
 
     <!--Header-->
-    <section id="header" style="background-color:#000 !important; height: unset;" class="main-site-head" style="height:100vh">
-      <div>
-        <div class="">
-          <div class="">
-           <div class="">
-          
-            <main class="page-content row" style="margin-top: 100px;">
-              <div class="d_card col-md-6">
-               <a style="text-decoration:none; width: 100%;" href="/portfolio.html">
-                <div class="content">
-                  <h2 class="heading" style="text-decoration:none;">Portfolio</h2>
-                  <p class="data-content">Here's How I Can Help You!!!</p>
-                </div>
-              </a> 
-              </div> 
-              
-              <div class="d_card col-md-6">
-                <a style="text-decoration:none; width: 100%;" href="store.html">
-                 <div class="content">
-                   <h2 class="heading" style="text-decoration:none;">Store</h2>
-                   <p class="data-content">Free and Paid Stuff that Makes Your Website More Awesome.  </p>
-                 </div>
-               </a> 
-               </div> 
-        
 
+<!-- test  -->
 
-
-        </div>
-        
-      </div>
-    </section>
+<div class='split-pane col-xs-12 col-md-6 sm-col-12 uiux-side'>
+  <div>
+    <!-- <img src='https://bit.ly/BCR-design'> -->
+    <div class='text-content'>
+      <div class='big'>PORTFOLIO</div>
+      <div class="" style="margin-top: 10px;">Free and Paid Stuff For Your Website</div>
+    </div>
     
-    
-    
-    
-    <footer style="background-color: #000;">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <p><small>Copyright &copy; 2019 DeveloperAyush.com <br> All rights reserved.</small></p>
-            <a style="display: none;" href="https://www.freepik.com/free-photos-vectors/business">Business vector created by pikisuperstar - www.freepik.com</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-    <!-- Javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
+   <a href="/portfolio.html">> <button>
+      SHOW ME THE DESIGN
+    </button></a>
+  </div>
+</div>
+<div class='split-pane col-xs-12 col-md-6 sm-col-12 frontend-side'>
+  <div>
+    <!-- <img src='https://bit.ly/bcr-dev'> -->
+    <div class='text-content'>
+      <div class='big'>STORE</div>
+      <div class="" style="margin-top: 10px;">Free and Paid Stuff For Your Website</div>
 
-<script>
-  (function ($) {
-    $(function () {
-  
-      var agSlideFlickity = $('.js-flickity-slider').flickity({
-        autoPlay: 2000,
-        imagesLoaded: true,
-        percentPosition: false,
-        prevNextButtons: false,
-        initialIndex: 5,
-        pageDots: false,
-        groupCells: 1
-      });
-  
-      var agCard = agSlideFlickity.find('.js-carousel-cell .js-card-bg'),
-        agTransform = 'string' == typeof document.documentElement.style.transform ? 'transform' : 'WebkitTransform',
-        agSlide = agSlideFlickity.data('flickity');
-  
-      agSlideFlickity.on('scroll.flickity', function () {
-        agSlide.slides.forEach(function (t, e) {
-          var n = agCard[e],
-            i = -1 * (t.target + agSlide.x) / 3;
-  
-          n.style[agTransform] = 'translateX(' + i + 'px)';
-        });
-      });
-  
-      agSlideFlickity.on('dragStart.flickity', function (t, e) {
-        document.ontouchmove = function (t) {
-          t.preventDefault();
-        }
-      });
-  
-      agSlideFlickity.on('dragEnd.flickity', function (t, e) {
-        document.ontouchmove = function (t) {
-          return true;
-        }
-      });
-  
-    });
-  })(jQuery);
-  
-  </script>
+    </div>
+    <a href="/store.html">> <button>
+      SHOW ME THE DESIGN
+    </button></a>
+  </div>
+</div>
+<div id='split-pane-or'>
+  <div class="mid-icon">
+    <img src="img/logo.png">
+  </div>
+</div>
 
-
-    <script>
-      new WOW().init();
-    </script>
-    
-   
-
-    <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
-<script>
-  LeadDyno.key = "721137932efbedc097db4e7cb0b26a180e0820d6";
-  LeadDyno.recordVisit();
-  LeadDyno.autoWatch();
-  LeadDyno.initPaypal();
-</script>
 
 
     </body>
