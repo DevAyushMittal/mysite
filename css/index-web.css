@@ -15,11 +15,12 @@ html, body {
 }
 
 .frontend-side {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/website-code.png");
+background-color: #33a3ff;
 }
 
+
 .uiux-side {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/website-post-its.png");
+background-image: url(/img/pro.jpeg)
 }
 
 .split-pane {
