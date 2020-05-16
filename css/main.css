@@ -180,6 +180,8 @@ p {
 }
 
 .navbar {
+
+  font-size: 17px;
   margin-bottom: 0px;
 }
 
@@ -187,6 +189,9 @@ p {
     color: #ffffff;
     font-weight: 400;
     text-transform: uppercase;
+    margin-top: 20px;
+    font-family: oswald;
+    letter-spacing: 5px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -398,6 +403,9 @@ footer {
   .main2-img {
  position: static;
 
+  }
+  .header-img2{
+    margin-top: unset !important;
   }
 
   #header{
