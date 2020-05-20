@@ -877,6 +877,7 @@ padding-right: 100px;
 
 @media(max-width:700px){
   .testimonial-section .quote {
+    margin: auto;
     padding-left: 10px !important;
     padding-right: 0px !important;
   
@@ -885,6 +886,13 @@ padding-right: 100px;
   .quote-icon{
     margin-bottom: 10px !important;
   }
+  .testi-user-img {
+    display: none !important;
+  }
+.testimonial-section .user-saying {
+width: 100% !important;
+}
+
 }
 
 .swiper-container.testimonial {
