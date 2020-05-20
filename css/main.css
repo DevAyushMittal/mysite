@@ -397,6 +397,21 @@ footer {
 }   
 
 @media (max-width:800px){
+  .mi{
+    box-sizing:border-box;
+  /*width of the image*/
+  background: url(/img/portfolio/3m.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  }
+ 
+ .m {
+    display:none;
+ }
+ 
+ 
+ 
   .main1-img{
  position: static;
   }
