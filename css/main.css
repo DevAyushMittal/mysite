@@ -898,6 +898,12 @@ width: 100% !important;
 }
 
 
+.swiper-container.testimonial {
+  height: 70vh !important;
+  }
+  .testimonial-section .quote p {
+   font-size: 13px !important;
+  }
 
 }
 
